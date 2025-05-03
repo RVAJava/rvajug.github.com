@@ -10,11 +10,11 @@
 #
 # Then, build the image with:
 #
-# docker build -f src/main/docker/Dockerfile.native-micro -t quarkus/marsjug-site .
+# docker build -f src/main/docker/Dockerfile.native-micro -t quarkus/rvajug-site .
 #
 # Then run the container using:
 #
-# docker run -i --rm -p 8080:8080 quarkus/marsjug-site
+# docker run -i --rm -p 8080:8080 quarkus/rvajug-site
 #
 ###
 FROM quay.io/quarkus/quarkus-micro-image:2.0
