@@ -1,0 +1,33 @@
+{
+    "name": "Java and Node.js Development",
+    "image": "mcr.microsoft.com/devcontainers/java:1-21",
+
+    "features": {
+      "ghcr.io/devcontainers/features/java:1": {
+        "version": "21",
+        "installMaven": true
+      },
+      "ghcr.io/devcontainers/features/node:1": {
+        "version": "lts",
+        "nvmUse": true
+      }
+    },
+    "customizations": {
+      "vscode": {
+        "extensions": [
+          "vscjava.vscode-java-pack",
+          "dbaeumer.vscode-eslint",
+          "esbenp.prettier-vscode",
+          "ms-vscode.vscode-typescript",
+          "ms-azuretools.vscode-docker"
+        ]
+      }
+    },
+    "portsAttributes": {
+      "8181": {
+        "label": "Application",
+        "onAutoForward": "openPreview"
+      }
+    },
+    "postCreateCommand": ".devcontainer/configure.sh"
+  }
