@@ -1,10 +1,10 @@
-- name: Devoxx France
-  url: "http://www.devoxx.fr"
-  image: "devoxx.png"
+- name: "Ippon Technologies Richmond"
+  url: "https://ipponusa.com/about-us/richmond/"
+  image: "EXE_LOGO_IPPON.png"
 
-- name: Tricentis
-  url: "https://tricentis.wd1.myworkdayjobs.com/Tricentis_Careers?locations=0cb2ae6f158901dc29c91826a601ae02"
-  image: "tricentis.png"
+#- name: Tricentis
+#  url: "https://tricentis.wd1.myworkdayjobs.com/Tricentis_Careers?locations=0cb2ae6f158901dc29c91826a601ae02"
+#  image: "tricentis.png"
 # - name: Treeptik
 #   url: "https://www.treeptik.fr"
 #   image: "treeptik.png"
