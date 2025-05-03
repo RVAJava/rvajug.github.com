@@ -1,13 +1,13 @@
 ---
-title: Partenaires
-id: partenaires
+title: Partners
+id: partners
 description: Le Mars JUG réunit régulièrement la communauté Java de Marseille et de sa région autour d'intervenants qui viennent nous parler de la plateforme Java et de son écosystème.
 layout: main
 ---
 
-{#for partenaire in cdi:partenaires.list}
+{#for partner in cdi:partners.list}
   <div class="span4">
-    <h3>{partenaire.name}</h3>
-    <p><a href="{partenaire.url}" target="_blank"><img src="{site.image(str:fmt("partenaires/%s", partenaire.image))}"/></a></p>
+    <h3>{partner.name}</h3>
+    <p><a href="{partner.url}" target="_blank"><img src="{site.image(str:fmt("partners/%s", partner.image))}"/></a></p>
   </div>
 {/}
