@@ -8,8 +8,13 @@
   name: Carl Mosca
   profile: https://linkedin.com/in/carl-mosca-181b0b146
   bio: |
-    Carl Mosca is a seasoned software engineer with over 20 years of experience in the field. He has a strong background in Java and has worked on various projects, including cloud-native applications and microservices architectures.
-    Carl is passionate about software development and enjoys sharing his knowledge with others. He is also an advocate for best practices in software engineering, including DevOps and continuous integration/continuous deployment (CI/CD) methodologies.
+    Carl J. Mosca is a Distinguished Engineer with a deep and practical understanding of modern architectures, including Agile Modernization, Domain Driven Design, and Event Driven Architecture. 
+    He brings extensive experience with containerization technologies like Docker/Podman and Kubernetes, workflow engines, and is a lead within the Java Community of Practice.
+    Carl served as a Principal Cloud Architect at MITRE Corporation, where he focused on AI-based speech recognition and cloud-based design patterns, leveraging platforms 
+    including Platform One Big Bang and Iron Bank, with a strong emphasis on Zero Trust principles. His experience also includes significant roles at the U.S. Courts, where he led the 
+    Enterprise Architecture Admin Office and served as a Solutions Architect. In these positions, Carl championed Zero Trust Architecture and delivered on and off-premise cloud computing 
+    solutions, along with modernizing core systems using Java and containerization technologies. With a career spanning decades and a broad technical background encompassing numerous programming 
+    languages and databases, Carl brings a wealth of knowledge to the topic of Zero Trust within Java environments. He is passionate about secure and modern software development practices.
 - id: forax
   name: Rémi Forax
   profile: https://monge.univ-mlv.fr/~forax/
