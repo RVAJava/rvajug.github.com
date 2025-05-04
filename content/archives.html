@@ -13,7 +13,7 @@ layout: main
       {#for reunion in saison.reunions}
       <li>
         <i>
-          {reunion.title}&nbsp;par
+          {reunion.title}&nbsp;by
           {#for speaker in reunion.speakers}
           <strong>{#if speaker.profile}<a href="{speaker.profile}"
                                           target="_blank">{speaker.name}</a>{#else}{speaker.name}{/if}

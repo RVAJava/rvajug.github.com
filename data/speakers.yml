@@ -1,3 +1,15 @@
+- id: jimmyray
+  name: Jimmy Ray
+  profile: https://www.linkedin.com/in/iamjimmyray/
+  bio: |
+    Jimmy Ray has been writing and speaking for over 25 years. For the past several years he has focused on providing security, compliance, and governance solutions with Policy as Code (PaC) in the areas of cloud computing,
+    containerization, and software supply chain. Jimmy is recognized as a subject matter expert in PaC and software supply chain security.
+- id: carlmosca
+  name: Carl Mosca
+  profile: https://linkedin.com/in/carl-mosca-181b0b146
+  bio: |
+    Carl Mosca is a seasoned software engineer with over 20 years of experience in the field. He has a strong background in Java and has worked on various projects, including cloud-native applications and microservices architectures.
+    Carl is passionate about software development and enjoys sharing his knowledge with others. He is also an advocate for best practices in software engineering, including DevOps and continuous integration/continuous deployment (CI/CD) methodologies.
 - id: forax
   name: Rémi Forax
   profile: https://monge.univ-mlv.fr/~forax/

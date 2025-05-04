@@ -16,7 +16,7 @@ id: reunion
     if(meetingDate < now ){
       setInscriptionButtonText("meetup");
     } else {
-      setInscriptionButtonText("S'inscrire");
+      setInscriptionButtonText("Register");
     }
   }
   document.addEventListener("DOMContentLoaded", function() {
@@ -30,14 +30,14 @@ id: reunion
     <div class="center">
       <img src="{site.image('logo-smaller.png')}" alt="logo"/>
     </div>
-    <div class="date"><i class="fa fa-calendar"></i> {page.date.format(global:FULL_DATE_FORMAT)} à {page.date.format(global:TIME_FORMAT)}</div>
+    <div class="date"><i class="fa fa-calendar"></i> {page.date.format(global:FULL_DATE_FORMAT)} at {page.date.format(global:TIME_FORMAT)}</div>
     <h2>{page.title}</h2>
     <a href="{page.data.inscription}" target="_blank" class="btn btn-inscription"><i class="fa-solid fa-user-secret"></i>&nbsp;<span class="btn-inscription-text"></span></a>
   </div>
 </div>
 <div class="row">
   <div class="span12">
-    <h3>Résumé</h3>
+    <h3>Summary</h3>
 
     {#if page.image??}
       <div style="float:left;  padding-right:30px; padding-bottom:30px;">
@@ -67,8 +67,7 @@ id: reunion
       </div>
       {/for}
     </div>
-    <h3>Déroulement de la soirée</h3>
-    <p>La soirée se déroulera le <span class="label label-info">{page.date.format(FULL_DATE_FORMAT)}</span> à partir de {page.date.format(TIME_FORMAT)}</p>
+    <h3>Location</h3>
     {cdi:locations.get(page.data.location).info.markdownify.raw}
     <a href="{page.data.inscription}" target="_blank" class="btn btn-inscription"><i class="fa-solid fa-user-secret"></i>&nbsp;<span class="btn-inscription-text"></span></a>
   </div>
@@ -84,10 +83,10 @@ id: reunion
 
 
 <script src="https://giscus.app/client.js"
-        data-repo="rvajug/rvajug.github.com"
-        data-repo-id="MDEwOlJlcG9zaXRvcnkzMjI0OTY4"
+        data-repo="rvajava/rvajug.github.com"
+        data-repo-id="R_kgDOOj1D4g"
         data-category="General"
-        data-category-id="DIC_kwDOADE1iM4CkTeq"
+        data-category-id="DIC_kwDOOj1D4s4Cpvr9"
         data-mapping="title"
         data-strict="0"
         data-reactions-enabled="1"

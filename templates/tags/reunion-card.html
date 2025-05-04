@@ -1,7 +1,7 @@
 <article class="reunion-card">
-  <div class="date"><i class="fa fa-calendar"></i> {reunion.date.format(global:FULL_DATE_FORMAT)} à {reunion.date.format(global:TIME_FORMAT)}</div>
+  <div class="date"><i class="fa fa-calendar"></i> {reunion.date.format(global:FULL_DATE_FORMAT)} at {reunion.date.format(global:TIME_FORMAT)}</div>
   <h3><a href="{reunion.url}">{reunion.title}</a></h3>
-  <div class="speakers">&nbsp;par
+  <div class="speakers">&nbsp;by
     {#for id in reunion.data.speakers}
     {#let speaker = cdi:speakers.get(id)}
     <strong>{#if speaker.profile}<a href="{speaker.profile}"

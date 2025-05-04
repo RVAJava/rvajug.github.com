@@ -1,6 +1,6 @@
 name: Build PR Preview
 env:
-  TZ: Europe/Paris
+  TZ: America/New_York
 
 
 on:
