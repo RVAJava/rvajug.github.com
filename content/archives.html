@@ -8,7 +8,7 @@ layout: main
   <div class="span12">
     <h2 class="reunions-section-title">Archives</h2>
     {#for saison in cdi:archive-reunions.list}
-    <h4 class="reunions-subsection-title">Saison {saison.year}</h4>
+    <h4 class="reunions-subsection-title">Year {saison.year}</h4>
     <ul>
       {#for reunion in saison.reunions}
       <li>

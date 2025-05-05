@@ -1,7 +1,6 @@
-- year: 2024
+- year: 2022
   reunions:
-    - title: "Développer en Java Cloud Native en 2024, Unpopular Opinion ?"
+    - title: "Stranger Danger: Your Java Attack Surface Just Got Bigger"
       speakers:
-        - name: "Nicolas Muller"
-        - name: "Remi Verchere"
-      date: "2024-10-03"
+        - name: "Micah Silverman"
+      date: "2022-02-23"
