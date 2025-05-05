@@ -4,3 +4,9 @@
       speakers:
         - name: "Micah Silverman"
       date: "2022-02-23"
+- year: 2021
+  reunions:
+    - title: "The Power of Practice: Learning New Skills Effectively"
+      speakers: 
+        - name: "Davis Mohar"
+      date: "2021-10-28"

@@ -15,10 +15,15 @@
     Enterprise Architecture Admin Office and served as a Solutions Architect. In these positions, Carl championed Zero Trust Architecture and delivered on and off-premise cloud computing 
     solutions, along with modernizing core systems using Java and containerization technologies. With a career spanning decades and a broad technical background encompassing numerous programming 
     languages and databases, Carl brings a wealth of knowledge to the topic of Zero Trust within Java environments. He is passionate about secure and modern software development practices.
-- id: gphilippart
+- id: micahsilverman
   name: Micah Silverman
   profile: https://www.linkedin.com/in/micahsilverman/
   bio: | 
     With 27 years of Java Experience (yup, that’s from the beginning) and 20 years as a security professional, Micah Silverman has authored numerous articles, 
     co-authored a Java EE book, and spoken at many conferences. He’s a maker, who's built full-size MAME arcade cabinets and repaired old electronic games. 
     He brings his love of all things security and Java to a conference near you!
+- id: davidmohart
+  name: David Mohart
+  profile: https://www.linkedin.com/in/davis-mohar/
+  bio: |
+    Davis Mohar is a Software Engineer at Ippon Technologies USA who is passionate about thought leadership and software craft.
